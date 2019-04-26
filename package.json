@@ -1,11 +1,4 @@
 {
   "name": "masscss",
-  "version": "0.0.1",
-  "scripts" : {
-    "inception" : "cat node_modules/ace-css/css/ace.css node_modules/basscss-more/more.css > mass.css"
-  },
-  "dependencies": {
-    "ace-css": "1.1.0",
-    "basscss-more": "0.4.2"
-  }
+  "version": "0.0.1"
 }
