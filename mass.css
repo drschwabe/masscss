@@ -1747,12 +1747,12 @@ hr {
 .fs55 { font-size: 5.5rem; }
 
 
+.fs17px { font-size: 17px; }
 .fs18px { font-size: 18px; }
 .fs19px { font-size: 19px; }
 .fs20px { font-size: 20px; }
 .fs21px { font-size: 21px; }
 .fs22px { font-size: 22px; }
-
 
 
 .h1-i { font-size: 2rem !important; }
@@ -4498,6 +4498,8 @@ hr {
 
 .hv-unmute:hover { opacity: 1; }
 
+.parent:hover .parent-hv-unmute{ opacity: 1; }
+
 .hv-silver:hover { color: #DDDDDD; }
 
 .hv-border-silver:hover { border-color: #DDDDDD; }
@@ -4851,6 +4853,10 @@ hr {
 .animate-left-ease-out-cubic { transition: left 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);  }
 
 .animate-left-ease-out-cubic-0-25 { transition: left 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);  }
+
+.animate-background-color { transition: background-color 0.5s; }
+
+.parent:hover .parent-hv-background-opaque { background-color: rgba(0,0,0,0) ; }
 
 
 .font-default { font-family:sans-serif !important; }
