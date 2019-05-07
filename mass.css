@@ -1746,7 +1746,12 @@ hr {
 .fs50 { font-size: 5rem; }
 .fs55 { font-size: 5.5rem; }
 
-
+.fs11px { font-size: 11px; }
+.fs12px { font-size: 12px; }
+.fs13px { font-size: 13px; }
+.fs14px { font-size: 14px; }
+.fs15px { font-size: 15px; }
+.fs16px { font-size: 16px; }
 .fs17px { font-size: 17px; }
 .fs18px { font-size: 18px; }
 .fs19px { font-size: 19px; }
@@ -3048,6 +3053,19 @@ hr {
   border-bottom-color: #0074d9; 
   border-bottom-width: 1px;  
 }
+
+.border-bottom-blue-2 {
+  border-bottom-style: solid; 
+  border-bottom-color: #0074d9; 
+  border-bottom-width: 2px;  
+}
+
+.border-bottom-blue-3 {
+  border-bottom-style: solid; 
+  border-bottom-color: #0074d9; 
+  border-bottom-width: 3px;  
+}
+
 
 .border-left-blue {
   border-left-style: solid; 
