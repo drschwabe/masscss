@@ -10,7 +10,7 @@ npm install masscss --save
 or
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/masscss@0.0.1/mass.css" />
+<link rel="stylesheet" href="https://unpkg.com/masscss/mass.css" />
 ```
 ---
 
