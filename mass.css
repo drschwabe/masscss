@@ -1876,10 +1876,19 @@ hr {
 .h80p { height:80%; }
 .h70p { height:70%; }
 
+
+/*Percentage widths */
+
 .w100p { width:100%; }
 .w90p { width:90%; }
 .w80p { width:80%; }
 .w70p { width:70%; }
+.w60p { width:60%; }
+.w50p { width:50%; }
+.w40p { width:40%; }
+.w30p { width:30%; }
+.w20p { width:20%; }
+.w10p { width:10%; }
 
 /* New class set: min/max width and min/max height */
 
@@ -4162,6 +4171,9 @@ hr {
 
 .bg-darken-95 { background-color: rgba(0, 0, 0, .95) }
 
+.hv-bg-darken-55:hover { background-color: rgba(0, 0, 0, .55) }
+
+.hv-bg-darken-85:hover { background-color: rgba(0, 0, 0, .85) }
 
 
 /* More fidelity lighten */
@@ -4517,6 +4529,8 @@ hr {
 .hv-unmute:hover { opacity: 1; }
 
 .parent:hover .parent-hv-unmute{ opacity: 1; }
+
+.hv-unmute-children:hover > * { opacity: 1; }
 
 .hv-silver:hover { color: #DDDDDD; }
 
