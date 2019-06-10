@@ -1020,7 +1020,7 @@ hr {
 
 /* Basscss Border */
 
-.border {
+.border, .border-1 {
   border-style: solid;
   border-width: 1px;
 }
@@ -1547,6 +1547,7 @@ hr {
 .gray   { color: #AAAAAA }
 
 .silver { color: #DDDDDD }
+.silver-i { color: #DDDDDD !important; }
 
 .white  { color: #FFFFFF }
 
@@ -1671,6 +1672,8 @@ hr {
 .bg-lighten-3 { background-color: rgba(255, 255, 255, .25) }
 
 .bg-lighten-4 { background-color: rgba(255, 255, 255, .5) }
+
+.bg-opaque { background-color: rgba(255, 255, 255, 0) }
 
 /* Basscss Background Images */
 
@@ -2252,6 +2255,12 @@ hr {
 
 .pt07 { padding-top: 0.7rem }
 
+.pt08 { padding-top: 0.8rem }
+
+.pt09 { padding-top: 0.8rem }
+
+.pt10 { padding-top: 0.8rem }
+
 .pr07 { padding-right: 0.7rem }
 
 .pb07 { padding-bottom: 0.7rem }
@@ -2309,6 +2318,9 @@ hr {
 
 .px13 { padding-left: 1.3rem; padding-right: 1.3rem }
 
+.py13 { padding-top: 1.3rem; padding-bottom: 1.3rem }
+
+.py14 { padding-top: 1.4rem; padding-bottom: 1.4rem }
 
 .py15 { padding-top: 1.5rem; padding-bottom: 1.5rem }
 
@@ -2328,6 +2340,8 @@ hr {
 
 .px15 { padding-left: 1.5rem; padding-right: 1.5rem }
 
+
+.pb14 { padding-bottom: 1.4rem }
 
 
 .p175  { padding: 1.75rem }
@@ -2649,6 +2663,7 @@ hr {
 
 .mbn1 { margin-bottom: -1rem;  }
 
+.mtn1 { margin-top: -1rem; }
 
 @media (min-width: 40em) {
   .mr05-above-40 { margin-right: 0.5rem }
@@ -4137,9 +4152,14 @@ hr {
 
 .bg-darken-10 { background-color: rgba(0, 0, 0, .1) }
 
+.hv-bg-darken-10:hover { background-color: rgba(0, 0, 0, .1) }
+
 .bg-darken-15 { background-color: rgba(0, 0, 0, .15) }
 
 .bg-darken-20 { background-color: rgba(0, 0, 0, .2) }
+
+.hv-bg-darken-20:hover { background-color: rgba(0, 0, 0, .2) }
+
 
 .bg-darken-25 { background-color: rgba(0, 0, 0, .25) }
 
@@ -4226,6 +4246,14 @@ hr {
 
 .bg-white-50 { background-color: rgba(255, 255, 255, .5) }
 
+.bg-white-40 { background-color: rgba(255, 255, 255, .4) }
+
+.bg-white-30 { background-color: rgba(255, 255, 255, .3) }
+
+.bg-white-20 { background-color: rgba(255, 255, 255, .2) }
+
+.bg-white-10 { background-color: rgba(255, 255, 255, .1) }
+
 
 /* More fidelity muting */
 
@@ -4248,6 +4276,28 @@ hr {
 .mute-20 { opacity: .8; }
 
 .mute-10 { opacity: .9; }
+
+/* aliases */ 
+
+.opacity-0 { opacity: 0; }
+
+.opacity-1 { opacity: .1; }
+
+.opacity-2 { opacity: .2; }
+
+.opacity-3 { opacity: .3; }
+
+.opacity-4 { opacity: .4; }
+
+.opacity-5 { opacity: .5; }
+
+.opacity-6 { opacity: .6; }
+
+.opacity-7 { opacity: .7; }
+
+.opacity-8 { opacity: .8; }
+
+.opacity-9 { opacity: .9; }
 
 
 .scale-70 { transform: scale(0.7) }
@@ -4563,6 +4613,9 @@ hr {
 
 .hv-bg-orange:hover { background-color: rgba(255,155,9,1); }
 
+.hv-bg-lightorange:hover { background-color: #ffba75; }
+.hv-bg-lightorange-i:hover { background-color: #ffba75 !important; }
+
 .hv-bg-lightblue:hover { background-color: lightblue; }
 
 .hv-bg-blue-05:hover { background-color: rgba(0, 116, 217, 0.05) }
@@ -4676,6 +4729,10 @@ hr {
   z-index: 998 !important;
 }
 
+.z997 {
+  z-index: 997 !important;
+}
+
 .zN1 {
   z-index: -1;
 }
@@ -4709,6 +4766,22 @@ hr {
 
 .right-4 { right: 4rem; }
 
+.left-1 { left: 1rem; }
+
+.left-2 { left: 2rem; }
+
+.left-3 { left: 3rem; }
+
+.left-4 { left: 4rem; }
+
+@media (min-width: 60em) {
+  .right-1-above-60 { right: 1rem; }
+}
+
+@media (max-width: 60em) {
+  .left-4-below-60 { left: 4rem; }
+}
+
 
 .bottom-0.5 { bottom: 0.5rem; }
 
@@ -4722,6 +4795,10 @@ hr {
 .flipV {
   transform : rotate(180deg) 
 }
+
+.rotate90 {  transform : rotate(90deg)  }
+.rotate90n {  transform : rotate(-90deg)  }
+
 
 .hv-bg-silver-1:hover { background-color: rgba(221, 221, 221, .1) }
 
@@ -4880,6 +4957,10 @@ hr {
   transition: opacity 0.5s ease-in-out;
 }
 
+.animate-transform { transition: transform 0.5s ease-in-out; }
+
+.animate-transform-025s { transition: transform 0.25s ease-in-out; }
+
 .animate-left { transition: left 0.5s ease-in-out;  }
 
 .animate-left-ease-out-cubic { transition: left 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);  }
@@ -4887,6 +4968,8 @@ hr {
 .animate-left-ease-out-cubic-0-25 { transition: left 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);  }
 
 .animate-background-color { transition: background-color 0.5s; }
+
+.animate-background-color-0-15s-ease-in-out { transition: background-color 0.15s ease-in-out; }
 
 .parent:hover .parent-hv-background-opaque { background-color: rgba(0,0,0,0) ; }
 
@@ -5020,3 +5103,24 @@ Requires Google font included in page ex:
 .font-Raleway { font-family: 'Raleway', sans-serif; }
 
 
+/* Filters */
+
+.grayscale { 
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);    
+}
+
+.grayscale-25 { 
+  filter: grayscale(0.25);
+  -webkit-filter: grayscale(0.25);    
+}
+
+.grayscale-50 { 
+  filter: grayscale(0.5);
+  -webkit-filter: grayscale(0.5);    
+}
+
+.grayscale-75 { 
+  filter: grayscale(0.75);
+  -webkit-filter: grayscale(0.75);    
+}
