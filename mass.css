@@ -496,6 +496,15 @@ hr {
 
 .max-width-4 { max-width: 64rem }
 
+.max-width-5 { max-width: 80rem }
+
+.max-width-1024 { max-width: 1024px }
+
+.max-width-1280 { max-width: 1280px }
+
+.max-width-1400 { max-width: 1400px }
+
+
 .border-box { box-sizing: border-box }
 
 /* Basscss Align */
@@ -665,6 +674,40 @@ hr {
 .py4 { padding-top: 4rem; padding-bottom: 4rem }
 
 .px4 { padding-left: 4rem; padding-right: 4rem }
+
+.pl5 { padding-left: 5rem }
+
+.pl6 { padding-left: 6rem }
+
+.pl7 { padding-left: 7rem }
+
+.pl8 { padding-left: 8rem }
+
+.pl9 { padding-left: 9rem }
+
+.pl10 { padding-left: 10rem }
+
+.pl11 { padding-left: 11rem }
+
+.pl12 { padding-left: 12rem }
+
+.pl13 { padding-left: 13rem }
+
+.pl14 { padding-left: 14rem }
+
+.pl15 { padding-left: 15rem }
+
+.pl16 { padding-left: 16rem }
+
+.pl17 { padding-left: 17rem }
+
+.pl18 { padding-left: 18rem }
+
+.pl19 { padding-left: 19rem }
+
+.pl20 { padding-left: 20rem }
+
+
 
 /* Basscss Grid */
 
@@ -1000,6 +1043,9 @@ hr {
 
 .absolute { position: absolute }
 
+.absolute-i { position: absolute !important }
+
+
 .fixed    { position: fixed }
 
 .top-0    { top: 0 }
@@ -1015,8 +1061,21 @@ hr {
 .z2 { z-index: 2 }
 
 .z3 { z-index: 3 }
+.z3-i { z-index: 3 !important; }
 
 .z4 { z-index: 4 }
+.z4-i { z-index: 4 !important; }
+
+.z5 { z-index: 5 }
+.z5-i { z-index: 5 !important; }
+
+.z6 { z-index: 6 }
+.z6-i { z-index: 6 !important; }
+
+.z7 { z-index: 7 }
+.z7-i { z-index: 7 !important; }
+
+.z8 { z-index: 8 }
 
 /* Basscss Border */
 
@@ -1543,6 +1602,7 @@ hr {
 */
 
 .black  { color: #111111 }
+.black-i  { color: #111111 !important; }
 
 .gray   { color: #AAAAAA }
 
@@ -1622,6 +1682,7 @@ hr {
 .border-black  { border-color: #111111 }
 
 .border-gray   { border-color: #AAAAAA }
+.border-gray-i   { border-color: #AAAAAA  !important; }
 
 .border-silver { border-color: #DDDDDD }
 
@@ -2371,6 +2432,8 @@ hr {
 
 .py20 { padding-top: 2rem; padding-bottom: 2rem }
 
+.py20-i { padding-top: 2rem !important; padding-bottom: 2rem  !important; }
+
 .px20 { padding-left: 2rem; padding-right: 2rem }
 
 
@@ -2400,6 +2463,8 @@ hr {
 .pl30 { padding-left: 3rem }
 
 .py30 { padding-top: 3rem; padding-bottom: 3rem }
+
+.py30-i { padding-top: 3rem !important; padding-bottom: 3rem  !important; }
 
 .px30 { padding-left: 3rem; padding-right: 3rem }
 
@@ -2664,6 +2729,12 @@ hr {
 .mbn1 { margin-bottom: -1rem;  }
 
 .mtn1 { margin-top: -1rem; }
+.mtn2 { margin-top: -2rem; }
+.mtn3 { margin-top: -3rem; }
+
+@media (min-width: 40em) {
+  .mtn3-above-40 { margin-top: -3rem; }
+}
 
 @media (min-width: 40em) {
   .mr05-above-40 { margin-right: 0.5rem }
@@ -3028,6 +3099,12 @@ hr {
   border-bottom-width: 1px;
 }
 
+.border-bottom-lightsilver { 
+  border-bottom-style: solid; 
+  border-bottom-color: #ececec; 
+  border-bottom-width: 1px;
+}
+
 .border-right-silver {
   border-right-style: solid; 
   border-right-color: silver; 
@@ -3341,10 +3418,17 @@ hr {
   .hide-below-630px { display: none !important }
 }
 
-@media (max-width: 695px) {
+@media (max-width: 680px) {
   .hide-below-695px { display: none !important }
 }
 
+@media (max-width: 680px) {
+  .hide-below-680px { display: none !important }
+}
+
+@media (min-width: 680px) {
+  .show-below-680px { display: none !important }
+}
 
 @media (max-width: 745px) {
   .hide-below-745px { display: none !important }
@@ -3381,6 +3465,14 @@ hr {
 
 @media (min-width: 885px) {
   .show-below-885px { display: none !important }
+}
+
+@media (min-width: 927px) {
+  .show-below-927px { display: none !important }
+}
+
+@media (max-width: 927px) {
+  .hide-below-927px { display: none !important }
 }
 
 @media (max-width: 950px) {
@@ -4554,6 +4646,10 @@ hr {
 
 .bg-verygreen { background-color: #3ad377; }  
 
+.charcoal { color: rgb(39, 40, 40) }
+
+.bg-charcoal { background-color: rgb(39, 40, 40) }
+
 .charcoal-gray { color: #444444; }
 
 .bg-charcoal-gray { background-color: #444444; }
@@ -4814,7 +4910,7 @@ hr {
 
 .hv-bg-silver-7:hover { background-color: rgba(221, 221, 221, .7) }
 
-.hv-bg-silver-8:hover { background-color: rgba(221, 221, 221, .8) }
+.hv-bg-silver-8:hover { background-color: rgb(227, 228, 228) }
 
 .hv-bg-silver-9:hover { background-color: rgba(221, 221, 221, .9) }
 
@@ -4957,6 +5053,10 @@ hr {
   transition: opacity 0.5s ease-in-out;
 }
 
+.animate-opacity-top-250 {
+  transition: opacity 0.25s ease-in-out, top 0.25s ease-in-out; ;
+}
+
 .animate-transform { transition: transform 0.5s ease-in-out; }
 
 .animate-transform-025s { transition: transform 0.25s ease-in-out; }
@@ -4966,6 +5066,12 @@ hr {
 .animate-left-ease-out-cubic { transition: left 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);  }
 
 .animate-left-ease-out-cubic-0-25 { transition: left 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);  }
+
+.animate-top { transition: top 0.5s ease-in-out;  }
+
+.animate-top-250 { transition: top 0.25s ease-in-out;  }
+
+.animate-margin-top-250 { transition: margin-top 0.25s ease-in-out;  }
 
 .animate-background-color { transition: background-color 0.5s; }
 
@@ -5120,7 +5226,20 @@ Requires Google font included in page ex:
   -webkit-filter: grayscale(0.5);    
 }
 
-.grayscale-75 { 
+.grayscale-75, .hv-grayscale-75:hover { 
   filter: grayscale(0.75);
   -webkit-filter: grayscale(0.75);    
 }
+
+.grayscale-reset, .hv-grayscale-reset:hover {
+	 filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}
+
+.hv-unmute-sibling:hover + * {
+	opacity: 1;
+} 
+
+.hv-unmute-50-sibling:hover + * {
+	opacity: 0.5;
+} 
