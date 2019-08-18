@@ -1677,6 +1677,9 @@ hr {
 
 .bg-maroon  { background-color: #85144B }
 
+.bg-tan { background-color: #a5914d }
+
+
 /* Basscss Border Colors */
 
 .border-black  { border-color: #111111 }
@@ -1942,8 +1945,11 @@ hr {
 
 
 /*Percentage widths */
-
+.w300p { width:300%; }
+.w200p { width:200%; }
+.w200p-i { width:200% !important; }
 .w100p { width:100%; }
+.w100p-i { width:100% !important; }
 .w90p { width:90%; }
 .w80p { width:80%; }
 .w70p { width:70%; }
@@ -3010,9 +3016,29 @@ hr {
   border-left-width: 3px;
 }
 
+.border-3-bottom {
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+}
+
+.border-3-top {
+  border-top-style: solid;
+  border-top-width: 3px;
+}
+
 .border-4 {
   border-style: solid;
   border-width: 4px;
+}
+
+.border-4-dashed {
+  border-style: dashed;
+  border-width: 4px;
+}
+
+.border-7-dashed {
+  border-style: dashed;
+  border-width: 7px;
 }
 
 .border-width-2 { border-width: 2px; }
@@ -3420,6 +3446,10 @@ hr {
 
 @media (max-width: 680px) {
   .hide-below-695px { display: none !important }
+}
+
+@media (min-width: 600px) {
+  .show-below-600px { display: none !important }
 }
 
 @media (max-width: 680px) {
@@ -4404,6 +4434,7 @@ hr {
 
 .overflow-hidden-y { overflow-y: hidden; }
 .overflow-y-hide { overflow-y: hidden; }
+.overflow-y-visible { overflow-y: visible; }
 
 .overflow-scroll-y { overflow-y: scroll; }
 
@@ -4694,6 +4725,8 @@ hr {
 
 .hv-border-blue-5:hover { border-color: rgba(0, 116, 217, 0.5) }
 
+.bg-red-mute-2 { background-color: rgba(255, 65, 54, 0.2) }
+
 .bg-red-mute-5 { background-color: rgba(255, 65, 54, 0.5) }
 
 
@@ -4719,6 +4752,12 @@ hr {
 .hv-bg-blue-1:hover { background-color: rgba(0, 116, 217, 0.1) }
 
 .hv-bg-blue-2:hover { background-color: rgba(0, 116, 217, 0.2) }
+
+.hv-border-white:hover { border-color:rgba(255,255,255,1); }
+
+.hv-border-4:hover { border-width: 4px; }
+
+.hv-border-7:hover { border-width: 7px; }
 
 
 .bg-blue-mute-1 { background-color: rgba(0, 116, 217, 0.1) }
@@ -5207,7 +5246,7 @@ Requires Google font included in page ex:
 
 .font-Montserrat { font-family: 'Montserrat', sans-serif; }
 .font-Raleway { font-family: 'Raleway', sans-serif; }
-
+.font-Merriweather: { font-family: 'Merriweather', serif; }
 
 /* Filters */
 
