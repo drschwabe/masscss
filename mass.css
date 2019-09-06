@@ -1934,10 +1934,12 @@ hr {
 }
 
 
-
-
 /*Percentage heights */
-
+.h300p-i { height:300% !important; }
+.h200p-i { height:200% !important; }
+.h100p-i { height:100% !important; }
+.h300p { height:300%; }
+.h200p { height:200%; }
 .h100p { height:100%; }
 .h90p { height:90%; }
 .h80p { height:80%; }
@@ -1946,6 +1948,7 @@ hr {
 
 /*Percentage widths */
 .w300p { width:300%; }
+.w300p-i { width:300% !important; }
 .w200p { width:200%; }
 .w200p-i { width:200% !important; }
 .w100p { width:100%; }
@@ -3288,15 +3291,53 @@ hr {
   outline-width: 2px;
 }
 
-.outline-2 {
+.outline-3 {
   outline-style: solid; 
   outline-width: 3px;
+}
+
+.outline-4 {
+  outline-style: solid; 
+  outline-width: 4px;
+}
+
+.outline-5 {
+  outline-style: solid; 
+  outline-width: 5px;
 }
 
 .outline-gray { outline-color: gray; }
 .outline-transparent { outline-color: rgba(0,0,0,0); }
 
+.outline-silver { outline-color: #DDDDDD }
 
+.outline-white  { outline-color: #FFFFFF }
+
+.outline-aqua  { outline-color: #7FDBFF }
+
+.outline-blue  { outline-color: #0074D9 }
+
+.outline-navy  { outline-color: #001F3F }
+
+.outline-teal  { outline-color: #39CCCC }
+
+.outline-green { outline-color: #2ECC40 }
+
+.outline-olive { outline-color: #3D9970 }
+
+.outline-lime  { outline-color: #01FF70 }
+
+.outline-yellow  { outline-color: #FFDC00 }
+
+.outline-orange  { outline-color: #FF851B }
+
+.outline-red     { outline-color: #FF4136 }
+
+.outline-fuchsia { outline-color: #F012BE }
+
+.outline-purple  { outline-color: #B10DC9 }
+
+.outline-maroon  { outline-color: #85144B }
 /* "shadow bold" adds bold without affecting container size */
 
 .shadow-bold-white {
@@ -3994,7 +4035,11 @@ hr {
   .ml10-below-50-i { margin-left: 1rem !important;  }
 }
 
-@media (min-width: 50em) {
+@media (max-width: 60em) {
+  .ml10-below-60-i { margin-left: 1rem !important;  }
+}
+
+@media (min-width: 40em) {
   .ml10-above-40 { margin-left: 1rem;  }
 }
 
@@ -4134,6 +4179,10 @@ hr {
 
 @media (max-width: 50em) {
   .mx30-below-50 { margin-left: 3rem; margin-right: 3rem }
+}
+
+@media (max-width: 60em) {
+  .ml40-below-60 { margin-left: 4rem;}
 }
 
 @media (max-width: 50em) {
@@ -4931,8 +4980,8 @@ hr {
   transform : rotate(180deg) 
 }
 
-.rotate90 {  transform : rotate(90deg)  }
-.rotate90n {  transform : rotate(-90deg)  }
+.rotate90, .rotate-90 {  transform : rotate(90deg)  }
+.rotate90n, .rotate90n {  transform : rotate(-90deg)  }
 
 
 .hv-bg-silver-1:hover { background-color: rgba(221, 221, 221, .1) }
@@ -5282,3 +5331,13 @@ Requires Google font included in page ex:
 .hv-unmute-50-sibling:hover + * {
 	opacity: 0.5;
 } 
+
+.blur-01 { filter: blur(0.1rem) }
+.blur-02 { filter: blur(0.2rem) }
+.blur-05 { filter: blur(0.5rem) }
+.blur-10 { filter: blur(1rem) }
+
+.blur-bg-02 { 
+  -webkit-backdrop-filter: blur(0.2rem)
+  backdrop-filter: blur(0.2rem) 
+}
