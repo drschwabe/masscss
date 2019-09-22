@@ -3441,6 +3441,11 @@ hr {
   .hide-below-395px { display: none !important }
 }
 
+@media (max-width: 400px) {
+  .hide-below-400px { display: none !important }
+}
+
+
 @media (max-width: 410px) {
   .hide-below-410px { display: none !important }
 }
@@ -3451,6 +3456,10 @@ hr {
 
 @media (max-width: 440px) {
   .hide-below-440px { display: none !important }
+}
+
+@media (max-width: 445px) {
+  .hide-below-450px { display: none !important }
 }
 
 @media (max-width: 490px) {
@@ -3487,6 +3496,14 @@ hr {
 
 @media (max-width: 680px) {
   .hide-below-695px { display: none !important }
+}
+
+@media (min-width: 450px) {
+  .show-below-450px { display: none !important }
+}
+
+@media (min-width: 500px) {
+  .show-below-500px { display: none !important }
 }
 
 @media (min-width: 600px) {
