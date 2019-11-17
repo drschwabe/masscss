@@ -2770,6 +2770,8 @@ hr {
 }
 
 
+.mb10 { margin-top: 1rem; margin-bottom: 1rem }
+
 
 .m15  { margin: 1.5rem }
 
@@ -4442,6 +4444,13 @@ hr {
 
 .bg-white-10 { background-color: rgba(255, 255, 255, .1) }
 
+.hv-bg-white-10:hover { background-color: rgba(255, 255, 255, .1) }
+
+.hv-bg-white-20:hover { background-color: rgba(255, 255, 255, .2) }
+
+.hv-bg-white-40:hover { background-color: rgba(255, 255, 255, .4) }
+
+
 
 /* More fidelity muting */
 
@@ -5121,6 +5130,33 @@ hr {
 .border-black-3-i { 
   border-color: rgba(0,0,0,0.3) !important; 
 }
+
+.border-black-4 { 
+  border-color: rgba(0,0,0,0.4)
+}
+
+.border-black-5 { 
+  border-color: rgba(0,0,0,0.5)
+}
+
+.border-black-6 { 
+  border-color: rgba(0,0,0,0.6)
+}
+
+.border-black-7 { 
+  border-color: rgba(0,0,0,0.7)
+}
+
+.border-black-8 { 
+  border-color: rgba(0,0,0,0.8)
+}
+
+.border-black-9 { 
+  border-color: rgba(0,0,0,0.9)
+}
+
+
+
 
 .border-orange-1 { 
   border-color: rgba(0,0,0,0.1)
