@@ -5337,18 +5337,19 @@ hr {
   }
 }
 
-
-
-
 /* ### Google Fonts ### 
 Requires Google font included in page ex:  
 <link href="https://fonts.googleapis.com/css?family=Raleway:600" rel="stylesheet">
 */
 
-
+.font-Play { font-family: 'Play', sans-serif; }
 .font-Montserrat { font-family: 'Montserrat', sans-serif; }
 .font-Raleway { font-family: 'Raleway', sans-serif; }
-.font-Merriweather: { font-family: 'Merriweather', serif; }
+.font-Merriweather { font-family: 'Merriweather', serif; }
+.font-Roboto { font-family: 'Roboto', sans-serif; }
+.font-Poppins { font-family: 'Poppins', sans-serif; }
+.font-Comfortaa { font-family: 'Comfortaa', cursive; }
+.font-M-PLUS-1p { font-family: 'M PLUS 1p', sans-serif; }
 
 /* Filters */
 
