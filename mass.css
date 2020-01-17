@@ -1043,7 +1043,7 @@ hr {
 
 .absolute { position: absolute }
 
-.absolute-i { position: absolute !important }
+.absolute-i { position: absolute !important; }
 
 
 .fixed    { position: fixed }
@@ -4795,9 +4795,10 @@ hr {
 .bg-pink { background-color: pink; }
 .hv-pink:hover { color: pink; }
 .hv-border-pink:hover { border-color: pink; }
-.hv-bg-pink: hover { background-color: pink; }
+.hv-bg-pink:hover { background-color: pink; }
 
-.pinky, .hv-pinky:hover { color: #f9cdefff; }
+.pinky { color: #f9cdefff; }
+.hv-pinky:hover { color: #f9cdefff; }
 
 .hv-bold:hover { font-weight:bold; }
 
@@ -5029,8 +5030,7 @@ hr {
   .left-4-below-60 { left: 4rem; }
 }
 
-
-.bottom-0.5 { bottom: 0.5rem; }
+.bottom-05 { bottom: 0.5rem; }
 
 .bottom-1 { bottom: 1rem; }
 
@@ -5429,6 +5429,6 @@ Requires Google font included in page ex:
 .blur-10 { filter: blur(1rem) }
 
 .blur-bg-02 { 
-  -webkit-backdrop-filter: blur(0.2rem)
+  -webkit-backdrop-filter: blur(0.2rem); 
   backdrop-filter: blur(0.2rem) 
 }
