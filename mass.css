@@ -2520,8 +2520,17 @@ hr {
 .pb60 { padding-bottom: 6rem }
 
 
+
 @media (max-width: 40em) {
   .p0-below-40 { padding: 0rem }
+}
+
+@media (max-width: 30em) {
+  .pl0-below-30 { padding: 0rem }
+}
+
+@media (min-width: 30em) {
+  .pl10-above-30 { padding-left: 1rem }
 }
 
 @media (min-width: 40em) {
@@ -4740,7 +4749,7 @@ hr {
 }
 
 .hv-bg-gray:hover {
-  background-color: #AAAAAA }
+  background-color: #AAAAAA; 
 }
 
 
