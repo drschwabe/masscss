@@ -1646,6 +1646,7 @@ hr {
 .bg-black  { background-color: #111111 }
 
 .bg-gray   { background-color: #AAAAAA }
+.bg-gray-i  { background-color: #AAAAAA !important }
 
 .bg-silver { background-color: #DDDDDD }
 
@@ -1694,6 +1695,8 @@ hr {
 .border-white  { border-color: #FFFFFF }
 
 .border-aqua  { border-color: #7FDBFF }
+
+.border-aqua-i  { border-color: #7FDBFF !important; }
 
 .border-blue  { border-color: #0074D9 }
 
@@ -3476,6 +3479,12 @@ hr {
 
 @media (max-width: 440px) {
   .hide-below-440px { display: none !important }
+  .bg-black-40-below-440 { background-color: rgba(0, 0, 0, .4)  }
+  .center-below-440 { text-align: center; }
+  .left-0-below-440 { left: 0; }
+  .w100p-below-440 { width: 100%; }
+  .my10-below-440 { margin-top: 1rem; margin-bottom: 1rem; }
+  .mx-auto-below-440 { margin: 0 auto; }
 }
 
 @media (max-width: 445px) {
@@ -5394,6 +5403,10 @@ Requires Google font included in page ex:
 .font-Comfortaa { font-family: 'Comfortaa', cursive; }
 .font-M-PLUS-1p { font-family: 'M PLUS 1p', sans-serif; }
 
+/* family=Josefin+Sans:400,700 */
+.font-Josefin { font-family: 'Josefin Sans', sans-serif; }
+
+
 /* Filters */
 
 .grayscale { 
@@ -5438,3 +5451,6 @@ Requires Google font included in page ex:
   -webkit-backdrop-filter: blur(0.2rem); 
   backdrop-filter: blur(0.2rem) 
 }
+
+
+.square-0 { width: 0; height: 0; }
