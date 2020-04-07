@@ -1854,6 +1854,24 @@ hr {
   .fs12-below-50 { font-size: 1.2rem; }
 }
 
+@media (max-width: 400px) {
+  .fs12-below-400px-i { font-size: 1.2rem !important; }
+}
+
+@media (max-width: 400px) {
+  .fs12-below-400px { font-size: 1.2rem; }
+}
+
+
+@media (max-width: 50em) {
+  .fs15-below-50 { font-size: 1.5rem; }
+}
+
+@media (max-width: 580px) {
+  .fs15-below-580px { font-size: 1.5rem; }
+}
+
+
 @media (max-width: 50em) {
   .fs15-below-50 { font-size: 1.5rem; }
 }
@@ -3717,6 +3735,10 @@ hr {
   .flex-above-550px { display: -webkit-box; display: -ms-flexbox; display: flex }
 }
 
+@media (min-width: 980px) {
+  .flex-above-980px { display: -webkit-box; display: -ms-flexbox; display: flex }
+}
+
 @media (min-width: 10em) {
   .flex-above-10 { display: -webkit-box; display: -ms-flexbox; display: flex }
 }
@@ -4061,6 +4083,9 @@ hr {
   .mt20-below-550px { margin-top: 2rem;  }
 }
 
+@media (max-width: 980px) {
+  .mt20-below-980px { margin-top: 2rem;  }
+}
 
 @media (max-width: 40em) {
   .mt20-below-40 { margin-top: 2rem;  }
@@ -4220,6 +4245,12 @@ hr {
 @media (min-width: 550px) {
   .ml3-above-550px { margin-left: 2rem }
 }
+
+
+@media (min-width: 980px) {
+  .ml3-above-980px { margin-left: 2rem }
+}
+
 
 @media (min-width: 40em) {
   .ml30-above-40 { margin-left: 3rem; }
