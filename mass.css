@@ -2812,7 +2812,7 @@ hr {
 }
 
 
-.mb10 { margin-top: 1rem; margin-bottom: 1rem }
+.mb10 { margin-bottom: 1rem }
 
 
 .m15  { margin: 1.5rem }
@@ -4825,6 +4825,12 @@ hr {
 .hv-bg-white:hover {
   background-color: white;
 }
+
+/* Active (mousedown) states */
+
+.active-bg-gray:active { background-color: gray; }
+.active-bg-lightgray:active { background-color: lightgray; }
+
 
 /* More colors */
 
