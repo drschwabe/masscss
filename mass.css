@@ -1684,6 +1684,7 @@ hr {
 
 .bg-tan { background-color: #a5914d }
 
+.bluegray { color: #88a6b0;}
 
 /* Basscss Border Colors */
 
@@ -3207,6 +3208,20 @@ hr {
   border-bottom-color: rgba(256,256,256,0.5); 
   border-bottom-width: 1px;
 }
+
+.border-bottom-3-white {
+  border-bottom-style: solid; 
+  border-bottom-color: white; 
+  border-bottom-width: 3px;
+}
+
+
+.border-bottom-3-silver {
+  border-bottom-style: solid; 
+  border-bottom-color: #DDDDDD; 
+  border-bottom-width: 3px;
+}
+
 
 .border-bottom-3 {
   border-bottom-width: 3px;
@@ -4962,9 +4977,11 @@ hr {
 
 
 .white-70 { color: rgba(255,255,255,0.7) }
+.hv-white-70:hover { color: rgba(255,255,255,0.7) }
 
 .white-80 { color: rgba(255,255,255,0.8) }
 
+.hv-white-80:hover { color: rgba(255,255,255,0.8) }
 
 .border-white-70 { border-color: rgba(255,255,255,0.7) }
 
@@ -5002,7 +5019,11 @@ hr {
 
 .lightblue, .hv-lightblue:hover { color: #79a8ca; }
 
+.hv-lightblue-i:hover { color: #79a8ca !important; }
+
 .very-lightblue, .hv-very-lightblue:hover { color: #9ad4ff; }
+
+.hv-very-lightblue:hover { color: #9ad4ff !important; }
 
 .hv-bg-very-lightblue:hover { background-color: #9ad4ff; }
 
@@ -5276,7 +5297,9 @@ hr {
 }
 
 
-
+.border-opaque { 
+  border-color: rgba(0,0,0,0.0)
+}
 
 .border-orange-1 { 
   border-color: rgba(0,0,0,0.1)
