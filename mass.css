@@ -468,6 +468,8 @@ hr {
 
 .table-cell   { display: table-cell }
 
+.table-border-collapse { border-collapse: collapse;  }
+
 .overflow-hidden { overflow: hidden }
 
 .overflow-scroll { overflow: scroll }
