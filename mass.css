@@ -5047,7 +5047,7 @@ hr {
 
 .hv-underline:hover { text-decoration: underline; }
 
-.hv-show:hover { display: inline-block important; }
+.hv-show:hover { display: inline-block !important; }
 
 
 .bg-darkred { background-color: darkred; }
