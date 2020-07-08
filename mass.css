@@ -5377,6 +5377,7 @@ hr {
 .light-yellow { color: #fffcde; } 
 .hv-light-yellow:hover { color: #fffcde; } 
 
+.bg-yellow-highlight { background-color: #fcee87; }
 
 .bg-yellow-pale { background-color:rgba(255,225,0,0.2); }
 
