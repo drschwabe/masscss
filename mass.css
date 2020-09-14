@@ -3001,6 +3001,11 @@ hr {
   border-left-width: 2px;
 }
 
+.border-2-right {
+  border-right-style: solid;
+  border-right-width: 2px;
+}
+
 .border-2-left-blue {
   border-left-style: solid;
   border-left-width: 2px;
@@ -3011,6 +3016,17 @@ hr {
 .border-2-left {
   border-left-style: solid;
   border-left-width: 2px;
+}
+
+.border-2-bottom {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+
+.border-2-top {
+  border-top-style: solid;
+  border-top-width: 2px;
 }
 
 .border-2-x-blue {
@@ -3185,6 +3201,12 @@ hr {
   border-bottom-style: solid; 
   border-bottom-color: #ececec; 
   border-bottom-width: 1px;
+}
+
+.border-right-black {
+  border-right-style: solid; 
+  border-right-color: black; 
+  border-right-width: 1px;
 }
 
 .border-right-silver {
