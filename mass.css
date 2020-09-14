@@ -1726,6 +1726,12 @@ hr {
 
 .border-purple  { border-color: #B10DC9 }
 
+.border-blue-purple { border-color: #40478f; }
+
+.bg-blue-purple { background-color: #40478f; }
+
+.hv-bg-blue-purple:hover { background-color: #40478f; }
+
 .border-maroon  { border-color: #85144B }
 
 /* Basscss Darken */
@@ -3398,8 +3404,12 @@ hr {
 
 .outline-purple  { outline-color: #B10DC9 }
 
+.outline-purple-light { outline-color: #c265f1 }
+
 .outline-maroon  { outline-color: #85144B }
 /* "shadow bold" adds bold without affecting container size */
+
+.outline-dash, .outline-dashed { outline-style: dashed; }
 
 .shadow-bold-white {
   text-shadow:0px 0px 1px white;
