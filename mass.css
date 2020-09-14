@@ -2211,6 +2211,10 @@ hr {
 }
 
 @media (max-width: 30em) {
+  .w50p-below-30 { width: 50%; }
+}
+
+@media (max-width: 30em) {
   .w100p-below-30 { width: 100%; }
 }
 
