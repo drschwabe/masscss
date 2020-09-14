@@ -3724,6 +3724,10 @@ hr {
 
 .hv-cursor-ew-resize:hover { cursor: ew-resize; }
 
+.cursor-ns-resize { cursor: ns-resize; }
+
+.hv-cursor-ns-resize:hover { cursor: ns-resize; }
+
 .invisible { visibility: hidden; }
 
 .opaque { opacity: 0; }
