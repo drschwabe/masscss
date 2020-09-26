@@ -21,7 +21,7 @@ No Sass, no variables, no fancy build workflow - it's just raw CSS.
 
 To use, simply link to mass.css in your page and use any of the thousands of classes included.
 
-Search existing classes/filter by classname or property via t[he website](https://masscss.nerdbusiness.com).
+Search existing classes/filter by classname or property via [the website](https://masscss.nerdbusiness.com).
 
 And for production, use [uncss](https://github.com/uncss/uncss) to trim unused classes.
 
