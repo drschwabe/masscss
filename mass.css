@@ -1847,6 +1847,10 @@ hr {
 
 .h1-i { font-size: 2rem !important; }
 
+@media(max-width: 570px ) {
+  .fs45-below-570px { font-size: 4.5rem; }
+}
+
 @media (max-width: 500px) {
   .fs12px-below-500px { font-size: 12px; }
 }
@@ -3582,7 +3586,11 @@ hr {
   .hide-below-520px { display: none !important }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 570px) {
+  .hide-below-570px { display: none !important }
+}
+
+@media (max-width: 590px) {
   .hide-below-590px { display: none !important }
 }
 
@@ -3643,8 +3651,16 @@ hr {
   .hide-below-870px { display: none !important }
 }
 
+@media (min-width: 800px) {
+  .show-below-800px { display: none !important }
+}
+
 @media (min-width: 870px) {
   .show-below-870px { display: none !important }
+}
+
+@media (max-width: 800px) {
+  .hide-below-800px { display: none !important }
 }
 
 @media (max-width: 875px) {
@@ -5014,9 +5030,9 @@ hr {
 .bg-blue-mute-9 { background-color: rgba(0, 116, 217, 0.9) }
 
 
-.Facebook-blue { color: #3c5a99; }
+.facebook-blue { color: #3c5a99; }
 
-.bg-Facebook-blue { background-color: #3c5a99; }
+.bg-facebook-blue { background-color: #3c5a99; }
 
 
 .white-70 { color: rgba(255,255,255,0.7) }
@@ -5591,3 +5607,5 @@ Requires Google font included in page ex:
 
 
 .square-0 { width: 0; height: 0; }
+
+.svg-container svg { height: auto;  width: 100%; }
