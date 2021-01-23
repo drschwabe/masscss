@@ -22,7 +22,6 @@ body {
 }
 
 img {
-  max-width: 100%;
   height: auto;
 }
 
@@ -1846,6 +1845,15 @@ hr {
 
 
 .h1-i { font-size: 2rem !important; }
+
+
+@media(max-width: 470px ) {
+  .fs35-below-470px { font-size: 3.5rem; }
+}
+
+@media(max-width: 470px ) {
+  .fs35-below-470px-i { font-size: 3.5rem !important; }
+}
 
 @media(max-width: 570px ) {
   .fs45-below-570px { font-size: 4.5rem; }
@@ -4615,6 +4623,10 @@ hr {
 .bg-black-10 { background-color: rgba(0, 0, 0, .1) }
 .bg-black-20 { background-color: rgba(0, 0, 0, .2) }
 .bg-black-40 { background-color: rgba(0, 0, 0, .4) }
+.bg-black-50 { background-color: rgba(0, 0, 0, .5) }
+.bg-black-60 { background-color: rgba(0, 0, 0, .6) }
+.bg-black-70 { background-color: rgba(0, 0, 0, .7) }
+.bg-black-80 { background-color: rgba(0, 0, 0, .8) }
 
 .hv-bg-black-10:hover { background-color: rgba(0, 0, 0, .1) }
 .hv-bg-black-20:hover { background-color: rgba(0, 0, 0, .2) }
@@ -5431,6 +5443,10 @@ hr {
 
 
 
+.lightgreen { color: lightgreen; } 
+
+
+
 .light-yellow { color: #fffcde; } 
 .hv-light-yellow:hover { color: #fffcde; } 
 
@@ -5555,6 +5571,7 @@ Requires Google font included in page ex:
 .font-Poppins { font-family: 'Poppins', sans-serif; }
 .font-Comfortaa { font-family: 'Comfortaa', cursive; }
 .font-M-PLUS-1p { font-family: 'M PLUS 1p', sans-serif; }
+.font-Josefin-Sans { font-family: 'Josefin Sans', sans-serif; }
 
 /* family=Josefin+Sans:400,700 */
 .font-Josefin { font-family: 'Josefin Sans', sans-serif; }
@@ -5594,6 +5611,15 @@ Requires Google font included in page ex:
 .hv-unmute-50-sibling:hover + * {
 	opacity: 0.5;
 } 
+
+.hv-blue-sibling:hover + * {
+  color: #0074D9; 
+}
+
+.hv-border-blue-5-sibling:hover + * {
+  border-color: rgba(0, 116, 217, 0.5); 
+}
+
 
 .blur-01 { filter: blur(0.1rem) }
 .blur-02 { filter: blur(0.2rem) }
